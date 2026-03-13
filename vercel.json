@@ -1,8 +1,8 @@
 {
   "installCommand": "npm install",
-  "buildCommand": "npm run build",
+  "buildCommand": "node node_modules/@angular/cli/bin/ng build",
   "outputDirectory": "dist/user-dashboard",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
