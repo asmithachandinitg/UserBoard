@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx ng build --configuration production --base-href /",
+  "buildCommand": "node ./node_modules/@angular/cli/bin/ng build --configuration production --base-href /",
   "outputDirectory": "dist/user-dashboard",
   "routes": [
     { "handle": "filesystem" },
