@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npx ng build --configuration production --base-href /",
   "outputDirectory": "dist/user-dashboard",
   "routes": [
     { "handle": "filesystem" },
